@@ -2042,6 +2042,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		object-fit: cover;
 	}
 
 		.image:before {
@@ -3218,4 +3219,17 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	}
+
+
+	/* photopgraphy */
+
+	#photography {
+		display: flexbox;
+		border: none;
+		margin: none;
+	}
+
+	.object-fit {
+		object-fit: cover;
 	}
